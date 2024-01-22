@@ -1,3 +1,9 @@
+body{
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 78px 24px 0px 100px;
+    background-color: rgb(249, 249, 249);
+  }
 .whole-grid
 {
 margin-bottom: 0;
@@ -5,74 +11,55 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 column-gap: 16px;
 row-gap: 36px;
-
 }
-
 @media (max-width:750px) 
 {
     .whole-grid {
         grid-template-columns: 1fr 1fr;
-    }
-    
+    } 
 }
 @media (min-width:751px) and (max-width:999px) 
 {
    .whole-grid{
     grid-template-columns: 1fr 1fr 1fr;
     } 
-
 }
 @media (min-width:1000px) 
 {
     .whole-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }  
-
 }
-
-
-
-.thumbnail-row{
+.thumbnail-row
+{
     position: relative;
     margin-bottom: 6px;
-
 }
-    .first-thumbnail
+.first-thumbnail
 {
     width: 100%;
 }  
 .first-thumbnail:hover{
     cursor: pointer;
 }
-
     .first-preview
 {
     display: grid;
-    grid-template-columns: 50px 1fr;
-    
+    grid-template-columns: 50px 1fr;  
 }
-.img-div{
+.img-div
+{
     width: 100%;
 }
-    .first-profile-pic
+.first-profile-pic
     {
         width: 36px;
         height: 36px;
         border-radius: 18px;
         object-fit: cover;
-    
     }
-    .first-profile-pic:hover{
+    .first-profile-pic:hover
+    {
         cursor: pointer;
     }
-p 
-{
   
-  }
-  body{
-    font-family: Roboto, Arial;
-    margin: 0;
-    padding: 78px 24px 0px 100px;
-    
-    background-color: rgb(249, 249, 249);
-  }
